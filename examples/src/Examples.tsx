@@ -1,7 +1,7 @@
-import {Manager} from "mana-ts/src/StateManager";
+import {Manager} from "mana-ts/StateManager";
 import useObjectManager = Manager.ReactHooks.useObjectManager;
-import {ManaDep, ManaVal} from "mana-ts/src/tools/ManagedHTML";
-import {ManaInput} from "mana-ts/src/tools/ManagedInput";
+import {ManaDep, ManaVal} from "mana-ts/tools/ManagedHTML";
+import {ManaInput} from "mana-ts/tools/ManagedInput";
 
 
 interface ExampleSubInterface{
