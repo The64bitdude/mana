@@ -10,6 +10,7 @@
     "jsx": "react-jsx",
     "moduleResolution": "node",
     "strict": true,
+    "removeComments": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,

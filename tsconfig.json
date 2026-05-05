@@ -19,7 +19,7 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
-    "removeComments": true,
+    "removeComments": false,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx"
