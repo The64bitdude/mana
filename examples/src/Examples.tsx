@@ -37,6 +37,7 @@ export function UseCaseTest (){
                     <span>
                         index:{val.test},data:{val.test2}
                     </span>
+                    {val.test===6&&<ManaInput manager={data.get("test5")} name={"test"} outputKey={"valueAsNumber"} type={"number"}/>}
                 </div>)}
         </div>)}/>
 
