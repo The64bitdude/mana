@@ -1,8 +1,8 @@
-# mana-js
+# mana-ts
 
 ### **A high-performance, O(1) reactive state engine and type-governance ecosystem for deeply nested trees.**
 
-**mana-js** was engineered from first principles to solve the "Identity Problem" and the "React Tax" in high-complexity data systems. Unlike standard state libraries that rely on global re-renders or heavy Virtual DOM diffing, Mana implements a surgical, fine-grained subscription model that ensures updates stay $O(1)$, regardless of document size.
+**mana-ts** was engineered from first principles to solve the "Identity Problem" and the "React Tax" in high-complexity data systems. Unlike standard state libraries that rely on global re-renders or heavy Virtual DOM diffing, Mana implements a surgical, fine-grained subscription model that ensures updates stay $O(1)$, regardless of document size.
 
 **Built entirely without generative AI.** This is pure architectural logic designed for total control over performance, memory management, and structural integrity.
 
@@ -37,7 +37,7 @@ Mana includes a reflection-based validation engine that extracts schemas directl
 ## 📦 Installation
 
 ```bash
-npm install mana-js
+npm install mana-ts
 ```
 
 ---
@@ -53,7 +53,7 @@ npm install mana-js
 ## 🧪 Performance Benchmark
 
 
-| Scenario | Standard React State | **mana-js** |
+| Scenario | Standard React State | **mana-ts** |
 | :--- | :--- | :--- |
 | 1,000 Node Update | ~15ms (Tree Diffing) | **< 1ms (Surgical)** |
 | 10,000 Node Update | ~120ms (UI Lag) | **< 1ms (O(1))** |

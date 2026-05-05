@@ -1,4 +1,25 @@
 {
+  "name": "mana-ts",
+  "version": "1.0.0",
+  "description": "A high-performance, O(1) reactive state engine and type-governance ecosystem for deeply nested trees.",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/The64bitdude/mana#readme",
+  "bugs": {
+    "url": "https://github.com/The64bitdude/mana/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The64bitdude/mana.git"
+  },
+  "license": "MIT",
+  "author": "Bryce Gredig",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
   "dependencies": {
     "react": "^19.2.5"
   },
