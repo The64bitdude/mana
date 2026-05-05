@@ -8,3 +8,4 @@
 /examples/public/bundle.js
 /examples/tsconfig.tsbuildinfo
 /dist/
+/examples/public/bundle.js.map
