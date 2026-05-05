@@ -1,9 +1,9 @@
-import {ReactElement} from "./ReactElement";
+import {ReactElement} from "../ReactElement";
 import Props = ReactElement.Props;
 import React, {useState, useMemo, useId, Ref, useRef, useEffect, RefObject} from "react";
 import Tag = ReactElement.Tag;
 import useConst = ReactElement.useConst;
-import {Manager} from "./StateManager";
+import {Manager} from "../StateManager";
 import StateDependant = Manager.StateDependant;
 import useDepMonitor = Manager.ReactHooks.useDepMonitor;
 import Dependant = Manager.Dependant;
