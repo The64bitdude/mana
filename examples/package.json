@@ -1,0 +1,26 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=public/bundle.js",
+    "start": "npm run build && serve public",
+    "test": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "mana-ts": "^1.0.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.28.0",
+    "serve": "^14.2.6",
+    "typescript": "^6.0.3"
+  }
+}

@@ -2,3 +2,9 @@
 /tsconfig.tsbuildinfo
 /node_modules/
 /.idea/
+/examples/package-lock.json
+/examples/node_modules/
+/examples/dist/
+/examples/public/bundle.js
+/examples/tsconfig.tsbuildinfo
+/dist/

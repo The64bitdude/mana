@@ -16,9 +16,14 @@
   "license": "MIT",
   "author": "Bryce Gredig",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dis/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "test"
+    "build": "tsc --build --clean && tsc --build",
+    "examples": "cd examples&&npm run test"
   },
   "dependencies": {
     "react": "^19.2.5"
