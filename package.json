@@ -15,9 +15,21 @@
   },
   "license": "MIT",
   "author": "Bryce Gredig",
-  "type": "commonjs",
-  "main": "dis/index.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js",
+      "default": "./dist/*.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*"
+      ]
+    }
+  },
   "files": [
     "dist"
   ],
