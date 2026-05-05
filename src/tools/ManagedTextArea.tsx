@@ -1,7 +1,6 @@
-import {Manager} from "../StateManager";
+import {Manager,tsType} from "../StateManager";
 import React, {useId} from "react";
 import {ManaElem, ManagedElement} from "./ManagedElement";
-import {tsType} from "../../../APIComponents/TypeVerifier";
 import {ManaProps,Mana} from "./ManagedHTML";
 
 
